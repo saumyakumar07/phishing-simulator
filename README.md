@@ -35,23 +35,27 @@ phishing_sim/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/phishing-simulator.git
+git clone https://github.com/saumyakumar07/phishing-simulator.git
 cd phishing-simulator
 ```
  
 ### 2. Set Up Environment
-
+```
 python3 -m venv venv
-source venv/bin/activate.fish  # For Fish shell
+source venv/bin/activate.fish # For Fish shell
 # Or for Bash/Zsh:
 # source venv/bin/activate
+```
 
 ### 3. Install Dependencies
-
+```
 pip install Flask
+```
 
 ### 4. Run the App
+```
 python3 app.py
+```
 
 Navigate to: http://127.0.0.1:5000
 
