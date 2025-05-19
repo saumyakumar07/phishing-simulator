@@ -35,7 +35,34 @@ phishing_sim/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/saumyakumar07/phishing-simulator.git
-cd phishing-simulator 
-
+git clone https://github.com/yourusername/phishing-simulator.git
+cd phishing-simulator
+```
+ 
 ### 2. Set Up Environment
+
+python3 -m venv venv
+source venv/bin/activate.fish  # For Fish shell
+# Or for Bash/Zsh:
+# source venv/bin/activate
+
+### 3. Install Dependencies
+
+pip install Flask
+
+### 4. Run the App
+python3 app.py
+
+Navigate to: http://127.0.0.1:5000
+
+✍️ Captured Data
+Captured credentials are saved in cred.txt in the following format:
+
+
+2025-05-19 12:34:56 | IP: 192.168.1.10 | UA: Mozilla/5.0 ... | Username: user@example.com | Password: password123
+
+🛡️ Ethical Use
+This tool is meant for training, awareness, and controlled red team simulations. Never deploy or use this tool against systems or users without explicit written consent.
+
+📃 License
+This project is licensed under the MIT License.
