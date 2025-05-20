@@ -19,8 +19,8 @@ This project is a **phishing simulation web application** built using Flask. It 
 
 phishing_sim/
 ├── app.py
-├── cred.txt # Captured credentials log
-├── templates/
+├── cred.txt # Captured credentials log (no need to create it automatically creates when first capture)
+├── templates/ 
 │ └── login.html # Login form
 ├── static/
 │ ├── style.css # Styling for the form
